@@ -1,0 +1,93 @@
+html {
+    font-family: sans-serif;
+}
+
+
+h1.title {
+    text-align: center;
+    font-size: 70;
+    color: white;
+    vertical-align: middle;
+    line-height: 120px;
+}
+
+h2.centered {
+    text-align: center;
+    font-size: 50;
+    
+}
+h3.centered {
+    text-align: center;
+    font-size: 30;
+}
+
+p.centered {
+    text-align: center;
+}
+
+.top {
+    background-image: url("blackTextureBg.jpg");
+    height: 170;
+    position: relative;
+}
+
+
+
+.subheader {
+    position:relative;
+    bottom:70;
+    font-size:30;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+.info
+{
+    left: 10;
+    bottom: -12;
+    position: absolute;
+    font-size:15;
+    color: white;
+}
+
+.navbar {
+  text-align: center;
+  height:50;
+  background-color: #343a40;
+  
+}
+
+.next {
+    height:300;
+    position: relative;
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    right:400;
+}
+
+
+.footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:40;
+    width:100%;
+    background-color: #343a40;
+}
+
+button.btn {
+    background-color: #343a40 !important;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 28;
+    height: 50;
+    
+}
+
+button.btn:hover {
+    color:aqua;
+}
