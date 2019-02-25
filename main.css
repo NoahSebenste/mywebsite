@@ -31,7 +31,14 @@ p.centered {
     position: relative;
 }
 
-
+.res {
+    background-image: url(/resume.PNG);
+    height: 889;
+    width: 678;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .subheader {
     position:relative;
@@ -41,6 +48,12 @@ p.centered {
     text-align: center;
     vertical-align: middle;
 }
+
+.me {
+    font-size:30;
+    color:black;
+}
+
 .info
 {
     left: 10;
@@ -58,14 +71,15 @@ p.centered {
 }
 
 .next {
-    height:300;
+    height:900;
     position: relative;
+    text-align: center;
 }
 
 .about {
     position: relative;
     text-align: center;
-    right:400;
+    right:300;
 }
 
 
