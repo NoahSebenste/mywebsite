@@ -50,8 +50,11 @@ p.centered {
 }
 
 .me {
+    position: relative;
     font-size:30;
     color:black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .info
@@ -70,18 +73,34 @@ p.centered {
   
 }
 
-.next {
-    height:900;
+.leftside {
+    top:20;
+    float: left;
+    width:50%;
+    left:100;
+    height: 400;
     position: relative;
     text-align: center;
 }
 
-.about {
+.rightside {
+    top:20;
+    float:right;
+    width:40%;
+    right: 300;
+    text-align: center;
     position: relative;
     text-align: center;
-    right:300;
 }
 
+.contact {
+    top:400;
+    right:110;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+   
+}
 
 .footer {
     position:fixed;
@@ -104,4 +123,33 @@ button.btn {
 
 button.btn:hover {
     color:aqua;
+}
+
+/* Add a black background color to the top navigation bar */
+.searchsection {
+  overflow: hidden;
+  background-color: gray;
+}
+
+/* Style the search box inside the navigation bar */
+.searchsection input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+    margin-left: 8px;
+  font-size: 17px;
+}
+
+.searchsection button {
+  float: left;
+  padding: 60px 100px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
